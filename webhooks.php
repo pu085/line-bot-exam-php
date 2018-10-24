@@ -23,8 +23,9 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 			$messages = [
-				  'type': 'text',
-   'text': 'Hello, world'
+				  	"type"=> "image",
+    "originalContentUrl"=> "http://winwinbiz.net/backoffice/templates/images/logo.png",
+    "previewImageUrl"=>"http://winwinbiz.net/backoffice/templates/images/logo.png"
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
